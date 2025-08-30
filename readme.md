@@ -20,7 +20,7 @@ First, get the official Google Go SDK for the Gemini API.
 go get google.golang.org/api/aiplatform/v1beta1
 ```
 You'll need to authenticate. The easiest way for local development is to use the gcloud CLI:
-``
+```
 gcloud auth application-default login
 ```
 ### Step 2: Define Your Go Function and its Tool Schema
