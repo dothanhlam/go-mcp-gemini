@@ -11,6 +11,10 @@ Agent Core Loop: A for loop that manages the conversation, sending messages and 
 
 Tool Dispatcher: A mechanism (like a switch statement) that calls your actual Go functions based on the model's request.
 
+```
+!!!IMPORTANT!!!
+This project is just the experimnent and its libraries might be deprecated soon, since most of the libraries are beta testing
+```
 ## Step-by-Step Implementation in Go
 Let's build a simple agent that can get the current weather.
 
